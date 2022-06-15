@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.aboutPage {
+    display: block;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+
+}
+
+@media screen and (max-width:660px) {
+    header > img {
+        display: block;
+        width: 350px;
+        height: 150px;
+        margin: auto;
+        background-size: contain;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        }
+    section button {
+        /* padding: 10px; */
+        padding-right: 20px;
+        margin-right: 20px;
+        border: none;
+        border-right: 2px solid rgb(184, 175, 155);
+        background-color: white;
+        cursor: pointer;
+        font-family: 'IM_Hyemin-Bold';
+    }
+    section button:last-child {
+        border: none;
+    }
+    .contact > a {
+        text-decoration: none;
+        color: black;
+    }
+    .blog > a {
+        text-decoration: none;
+        color: black;
+    }
+    .interior-img {
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    footer {
+        border-top: 1px antiquewhite solid;
+    }
+    footer> div{
+        font-family: 'IM_Hyemin-Bold';
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:end;
+        font-size: 11px;
+    }
+
+        
+}
+@media screen and (min-width : 660px){
+    header > img {
+        display: block;
+        width: 350px;
+        height: 150px;
+        margin: auto;
+        background-size: contain;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        }
+    section button {
+        padding-right: 20px;
+        margin-right: 20px;
+        border: none;
+        border-right: 2px solid rgb(184, 175, 155);
+        background-color: white;
+        cursor: pointer;
+        font-family: 'IM_Hyemin-Bold';
+    }
+    section button:last-child {
+        border: none;
+    }
+    .contact > a {
+        text-decoration: none;
+        color: black;
+    }
+    .blog > a {
+        text-decoration: none;
+        color: black;
+    }
+    .interior-img {
+        margin-bottom: 50px;
+    }
+    footer {
+        border-top: 1px antiquewhite solid;
+    }
+    footer> div{
+        font-family: 'IM_Hyemin-Bold';
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align:end;
+        font-size: 11px;
+    }
+
+}
