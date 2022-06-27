@@ -1,0 +1,16 @@
+.aboutPageBtn {
+    display: block;
+    background-color: rgb(255, 242, 230);
+    width: 90px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.aboutPage {
+    width: 500px;
+    margin: 0 auto;
+    height: 550px;
+    opacity: 80;
+    border-radius: 10px;
+    background-color: rgb(231, 213, 191);
+}
