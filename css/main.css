@@ -9,51 +9,36 @@ body {
     margin: 0;
 }
 
-.hidden{
-    display: none;
+a {
+    text-decoration: none;
+    color: black;
 }
-
+header {
+    width: 100%;
+}
+header > img {
+    display: block;
+    min-width: 350px;
+    height: 150px;
+    margin: auto;
+    background-size: contain;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+section button {
+    /* padding: 10px; */
+    padding-right: 20px;
+    margin-right: 20px;
+    border: none;
+    border-right: 2px solid rgb(184, 175, 155);
+    background-color: white;
+    cursor: pointer;
+    font-family: 'IM_Hyemin-Bold';
+}
 @media screen and (max-width:575.98px)  {
-    /* body {
-        width: 100%;
-        max-width: 500px;
-    } */
-    header {
-        width: 100%;
-    }
-    header > img {
-        display: block;
-        min-width: 350px;
-        height: 150px;
-        margin: auto;
-        background-size: contain;
-    }
-    section {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        }
-    section button {
-        /* padding: 10px; */
-        padding-right: 20px;
-        margin-right: 20px;
-        border: none;
-        border-right: 2px solid rgb(184, 175, 155);
-        background-color: white;
-        cursor: pointer;
-        font-family: 'IM_Hyemin-Bold';
-    }
-    section button:last-child {
-        border: none;
-    }
-    .contact > a {
-        text-decoration: none;
-        color: black;
-    }
-    .blog > a {
-        text-decoration: none;
-        color: black;
-    }
     .interior-img {
         margin-bottom: 50px;
     }
