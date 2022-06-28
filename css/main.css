@@ -116,7 +116,7 @@ section {
     .img > div {
         max-width: 100%;
         margin: 0 auto;
-        height: 550px;
+        height: 100%;
     }
     footer {
         margin-top: 50px;

@@ -1,8 +1,10 @@
-.aboutPageBtn {
+/* about 페이지 */
+.pageBtn {
     display: block;
     background-color: rgb(255, 242, 230);
     width: 90px;
     height: 25px;
+    margin-left: -20px;
     padding-right: 10px;
 }
 
@@ -13,4 +15,36 @@
     opacity: 80;
     border-radius: 10px;
     background-color: rgb(231, 213, 191);
+}
+.greeting {
+    display: none;
+    font-family: 'IM_Hyemin-Bold';
+    margin: 80px 20px 80px 20px;
+    line-height: 30px;
+}
+
+/* contact 페이지 */
+/* .contactPageBtn {
+    display: block;
+    background-color: rgb(255, 242, 230);
+    width: 100px;
+    height: 25px;
+    margin-left: -20px;
+    padding-right: 10px;
+} */
+
+.contactPage {
+    width: 500px;
+    margin: 0 auto;
+    height: 250px;
+    opacity: 80;
+    border-radius: 10px;
+    background-color: rgb(231, 213, 191);
+}
+
+.contact-info {
+    display: none;
+    font-family: 'IM_Hyemin-Bold';
+    margin: 40px 20px 40px 20px;
+    line-height: 30px;
 }
