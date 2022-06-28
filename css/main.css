@@ -4,7 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+ 
 body {
     margin: 0;
 }
@@ -28,21 +28,40 @@ section {
     justify-content: center;
     margin-top: 20px;
     }
-section button {
-    /* padding: 10px; */
-    padding-right: 20px;
-    margin-right: 20px;
-    border: none;
-    border-right: 2px solid rgb(184, 175, 155);
-    background-color: white;
-    cursor: pointer;
-    font-family: 'IM_Hyemin-Bold';
+
+@media screen and (max-width:500px)  {
+
+    section button {
+        border: none;
+        border-right: 2px solid rgb(184, 175, 155);
+        background-color: white;
+        cursor: pointer;
+        font-family: 'IM_Hyemin-Bold';
+    }
+    footer > div {
+        float: right;
+        font-size: 13px;
+    }
 }
-@media screen and (max-width:575.98px)  {
+@media screen and (min-width:500px) and (max-width:575.98px)  {
+    section button {
+        /* padding: 10px; */
+        padding-right: 20px;
+        margin-right: 20px;
+        border: none;
+        border-right: 2px solid rgb(184, 175, 155);
+        background-color: white;
+        cursor: pointer;
+        font-family: 'IM_Hyemin-Bold';
+    }
     .interior-img {
         margin-bottom: 50px;
     }
-
+    .img-in-div > img {
+        max-width: 100%;
+        margin: 0 auto;
+        height: 550px;
+    }
     footer {
         border-top: 1px antiquewhite solid;
     }
@@ -95,7 +114,7 @@ section button {
         margin-top: 50px;
     }
     .img > div {
-        max-width: 900px;
+        max-width: 100%;
         margin: 0 auto;
         height: 550px;
     }
