@@ -17,8 +17,7 @@ const aboutPageOpen = () => {
                 imgInDiv.style.webkitAnimation = 'fadeIn 0.5s';
                 imgInDiv.appendChild(greeting)
                 imgInDiv.classList.add('aboutPage')
-                greeting.style.display = 'block'
-           
+                greeting.style.display = 'block';
             }, 500);
  
     }
